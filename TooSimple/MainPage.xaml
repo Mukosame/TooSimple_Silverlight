@@ -116,7 +116,7 @@
 
             </Grid>
         </ScrollViewer>
-        <Button Content="OK" Click="OKClick" Margin="0,0,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Stretch"/>
+        <Button Content="好" Click="OKClick" Margin="0,0,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Stretch"/>
 
 
     </Grid>
