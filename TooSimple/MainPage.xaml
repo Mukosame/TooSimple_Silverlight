@@ -1,0 +1,123 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="TooSimple.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeMediumLarge}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+
+
+    <Grid Margin="10,10,10,10" VerticalAlignment="Top">
+        <!-- 0 -->
+        <Grid Margin="0,0,0,0" VerticalAlignment="Top" >
+
+            <TextBlock TextWrapping="Wrap" Text="标题：" FontWeight="Bold" VerticalAlignment="Center"/>
+            <TextBox  Name="jzx" Margin="60,0,0,0" Width="120"  HorizontalAlignment="Left" Text="江主席"/>
+            <TextBlock  Margin="180,0,0,0" TextWrapping="Wrap" Text="怒斥" FontWeight="Bold" VerticalAlignment="Center"/>
+            <TextBox Name="xgj"  Margin="230,0,0,0" Width="140" HorizontalAlignment="Left" Text="香港记者"/>
+        </Grid>
+        <ScrollViewer Margin="0,60,0,70">
+            <Grid Margin="0,0,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <!-- 0 -->
+
+
+                <!-- 1 -->
+                <TextBlock Grid.Row="1" Text="正文:" FontWeight="Bold"/>
+                <!-- 2 -->
+                <TextBlock Grid.Row="2" Margin="0,0,0,0" TextWrapping="Wrap" Text="1." VerticalAlignment="Center"/>
+                <TextBox Name="dxs"  Grid.Row="2" Margin="20,0,0,0" Width="200" HorizontalAlignment="Left" Text="董先生连任"/>
+                <TextBlock Grid.Row="2" Margin="220,0,0,0" TextWrapping="Wrap" Text="好不好啊？" VerticalAlignment="Center"/>
+
+                <!-- 3-->
+                <TextBlock Grid.Row="3" Margin="0,0,0,0" TextWrapping="Wrap" Text="2."  VerticalAlignment="Center"/>
+                <TextBox Name="zy"  Grid.Row="3" Margin="20,0,0,0" Width="200" HorizontalAlignment="Left" Text="中央"/>
+                <TextBlock Grid.Row="3" Margin="220,0,0,0" TextWrapping="Wrap" Text="也支持吗？" VerticalAlignment="Center"/>
+
+                <!-- 4 -->
+                <TextBlock Grid.Row="4" Margin="0,0,0,0" TextWrapping="Wrap" Text="3.会不会给人感觉是" VerticalAlignment="Center"/>
+                <TextBox Name="nmn" Grid.Row="4" Margin="210,0,0,0" Width="140" HorizontalAlignment="Left" Text="内定钦点董先生"/>
+                <TextBlock Grid.Row="4" Margin="350,0,0,0" TextWrapping="Wrap" Text="啊？" VerticalAlignment="Center"/>
+
+                <!-- 5 -->
+                <TextBlock Grid.Row="5" Margin="0,0,0,0" TextWrapping="Wrap" Text="4.我不是要" VerticalAlignment="Center"/>
+                <TextBox Name="qd"  Grid.Row="5" Margin="110,0,0,0" Width="200" HorizontalAlignment="Left" Text="钦定"/>
+
+                <!-- 6 -->
+                <TextBlock Grid.Row="6" Margin="0,0,0,0" TextWrapping="Wrap" Text="5.按照" VerticalAlignment="Center"/>
+                <TextBox Name="xgd"  Grid.Row="6" Margin="60,0,0,0" Width="190" HorizontalAlignment="Left" Text="香港的基本法"/>
+                <TextBlock Grid.Row="6" Margin="245,0,0,0" TextWrapping="Wrap" Text="和"  VerticalAlignment="Center"/>
+                <TextBox Name="azx"  Grid.Row="6" Margin="265,0,0,0" Width="120" HorizontalAlignment="Left" Text="选举法"/>
+
+                <!-- 7 -->
+                <TextBlock Grid.Row="7" Margin="0,0,0,0" TextWrapping="Wrap" Text="6." VerticalAlignment="Center"/>
+                <TextBox Name="xf"  Grid.Row="7" Margin="20,0,0,0" Width="90" HorizontalAlignment="Left" Text="西方"/>
+                <TextBlock Grid.Row="7" Margin="105,0,0,0" TextWrapping="Wrap" Text="哪个"  VerticalAlignment="Center"/>
+                <TextBox Name="gj"  Grid.Row="7" Margin="145,0,0,0" Width="90" HorizontalAlignment="Left" Text="国家"/>
+                <TextBlock Grid.Row="7" Margin="230,0,0,0" TextWrapping="Wrap" Text="我没"  VerticalAlignment="Center"/>
+                <TextBox Name="q" Grid.Row="7" Margin="275,0,0,0" Width="60" HorizontalAlignment="Left" Text="去"/>
+                <TextBlock Grid.Row="7" Margin="330,0,0,0" TextWrapping="Wrap" Text="过"  VerticalAlignment="Center"/>
+
+                <!-- 8 -->
+                <TextBlock Grid.Row="8" Margin="0,0,0,0" TextWrapping="Wrap" Text="7." VerticalAlignment="Center"/>
+                <TextBox Name="mg"  Grid.Row="8" Margin="20,0,0,0" Width="90" HorizontalAlignment="Left" Text="美国"/>
+                <TextBlock Grid.Row="8" Margin="102,0,0,0" TextWrapping="Wrap" Text="的"  VerticalAlignment="Center"/>
+                <TextBox Name="hls"  Grid.Row="8" Margin="120,0,0,0" Width="110" HorizontalAlignment="Left" Text="华莱士"/>
+                <TextBlock Grid.Row="8" Margin="225,0,0,0" TextWrapping="Wrap" Text="比你们高到哪去"  VerticalAlignment="Center"/>
+
+                <!-- 9 -->
+                <TextBlock Grid.Row="9" Margin="0,0,0,0" TextWrapping="Wrap" Text="8.比" VerticalAlignment="Center"/>
+                <TextBox Name="xfj"  Grid.Row="9" Margin="40,0,0,0" Width="140" HorizontalAlignment="Left" Text="西方记者"/>
+                <TextBlock Grid.Row="9" Margin="180,0,0,0" TextWrapping="Wrap" Text="跑得快"  VerticalAlignment="Center"/>
+
+                <!-- 10 -->
+                <TextBlock Grid.Row="10" Margin="0,0,0,0" TextWrapping="Wrap" Text="9.我今天作为一个" VerticalAlignment="Center"/>
+                <TextBox Name="zz"  Grid.Row="10" Margin="190,0,0,0" Width="120" HorizontalAlignment="Left" Text="长者"/>
+
+                <!-- 11 -->
+                <TextBlock Grid.Row="11" Margin="0,0,0,0" TextWrapping="Wrap" Text="10." VerticalAlignment="Center"/>
+                <TextBox Name="dxs2"  Grid.Row="11" Margin="30,0,0,0" Width="110" HorizontalAlignment="Left" Text="董先生"/>
+                <TextBlock Grid.Row="11" Margin="130,0,0,0" TextWrapping="Wrap" Text="现在是"  VerticalAlignment="Center"/>
+                <TextBox Name="ts"  Grid.Row="11" Margin="200,0,0,0" Width="90" HorizontalAlignment="Left" Text="特首"/>
+
+                <!-- 12 -->
+                <TextBlock Grid.Row="12" Margin="0,0,0,0" TextWrapping="Wrap" Text="11." VerticalAlignment="Center"/>
+                <TextBox Name="lr"  Grid.Row="12" Margin="30,0,0,0" Width="120" HorizontalAlignment="Left" Text="连任"/>
+                <TextBlock Grid.Row="12" Margin="140,0,0,0" TextWrapping="Wrap" Text="也要按照"  VerticalAlignment="Center"/>
+                <TextBox Name="xgdfl"  Grid.Row="12" Margin="240,0,0,0" Width="170" HorizontalAlignment="Left" Text="香港的法律"/>
+                <!-- 13 -->
+                <TextBlock Grid.Row="13" Margin="0,0,0,0" TextWrapping="Wrap" Text="12.我们的" VerticalAlignment="Center"/>
+                <TextBox Name="jdq"  Grid.Row="13" Margin="100,0,0,0" Width="110" HorizontalAlignment="Left" Text="决定权"/>
+                <TextBlock Grid.Row="13" Margin="200,0,0,0" TextWrapping="Wrap" Text="也是很重要的"  VerticalAlignment="Center"/>
+
+            </Grid>
+        </ScrollViewer>
+        <Button Content="OK" Click="OKClick" Margin="0,0,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Stretch"/>
+
+
+    </Grid>
+</phone:PhoneApplicationPage>
